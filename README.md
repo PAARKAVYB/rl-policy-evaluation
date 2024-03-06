@@ -42,6 +42,11 @@ The agent receives a reward of +1 for reaching the goal state (G). The agent rec
 
 ## PROGRAM:
 ```
+Developed by : Paarkavy B
+Reg No : 212221230072
+```
+
+```
 def policy_evaluation(pi, P, gamma=1.0, theta=1e-10):
    	'''Initialize 1st Iteration estimates of state-value function(V) to zero'''
     prev_V = np.zeros(len(P), dtype=np.float64)
